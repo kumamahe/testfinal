@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel='tests'>
+<test name="TestA">
+    <classes>
+      <class name="grid.testa"/>
+    </classes>
+</test>
+<test name="TestB">   
+    <classes>
+      <class name="grid.testb"/>  
+     </classes>
+</test>
+<test name="TestC">    
+   <classes>
+      <class name="grid.testc"/>
+   </classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
